@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@800&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+    <h1>
+        Miffy galleria
+    </h1>
+    <div class="container">
+        <div class="short-line"></div>
+    </div>
+    <br>
+
+    <div class="flex-container">
+        <div>
+            <a href="https://cloudnola.com/cdn/shop/articles/CloudnolaxMiffy-Stripes1_Square.jpg?v=1684936778" target="_blank">
+                <img src="https://cloudnola.com/cdn/shop/articles/CloudnolaxMiffy-Stripes1_Square.jpg?v=1684936778">
+            </a>
+        </div>
+        <div>
+            <a href="https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2023/09/20230927193002_4dceed006f568493fbad049f519bb8773b0d2b82.jpg" target="_blank">
+            <img src="https://resource02.ulifestyle.com.hk/ulcms/content/article/thumbnail/1280x720/2023/09/20230927193002_4dceed006f568493fbad049f519bb8773b0d2b82.jpg">
+            </a>
+        </div>
+        <div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGW2ybt22GnHGJjprJtvwDW3bzMpsFhFclEhzsuW1A1b6j7RnRMJhyHoQJ-EazanBiDY&usqp=CAU" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGW2ybt22GnHGJjprJtvwDW3bzMpsFhFclEhzsuW1A1b6j7RnRMJhyHoQJ-EazanBiDY&usqp=CAU">
+            </a>
+        </div>
+        <div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpbgUQwPOIYjbP9ZgP3GtFXjDyBsKi-w-f1Upc5h08jYgFIehQ44J5wcg_iMBMMyZyJ60&usqp=CAU" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpbgUQwPOIYjbP9ZgP3GtFXjDyBsKi-w-f1Upc5h08jYgFIehQ44J5wcg_iMBMMyZyJ60&usqp=CAU">
+            </a>
+        </div>
+        <div>
+            <a href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/06/18/20/39-Miffy-Plane.jpg" target="_blank">
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/06/18/20/39-Miffy-Plane.jpg">
+            </a>
+        </div>
+        <div>
+            <a href="https://cdn.shopify.com/s/files/1/0198/3480/files/Miffy-collection-reve-by-rene.jpg?v=1600452672" target="_blank"> 
+            <img src="https://cdn.shopify.com/s/files/1/0198/3480/files/Miffy-collection-reve-by-rene.jpg?v=1600452672">
+            </a>
+        </div>
+        <div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIH7Zay6Co4wNcDyeZeuefw83A0lGWONRFNA&usqp=CAU" target="_blank">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIH7Zay6Co4wNcDyeZeuefw83A0lGWONRFNA&usqp=CAU">
+            </a>
+        </div>
+        <div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTxPQhf8F3bHDsZ721OzX4QIK6n-nDrxGV_0Q5zpY0vGzjHslyfvcC9CzYgGsRTgVbSk&usqp=CAU" target="_blank">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTxPQhf8F3bHDsZ721OzX4QIK6n-nDrxGV_0Q5zpY0vGzjHslyfvcC9CzYgGsRTgVbSk&usqp=CAU">
+            </a>
+        </div>
+    </div>
+
+</head>
+
+<body>
+    
+
+</body>
+
+</html>
+
+<style>
+    
+    
+    h1 {
+        color: rgb(47, 67, 179);
+        text-align: center;
+        font-family: Playpen Sans;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .short-line {
+        width: 240px;
+        height: 2px;
+        background-color: rgb(239, 96, 8);
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+    }
+
+    .flex-container>div {
+        background-color: #f1f1f1;
+        width: 100px;
+        height: 300px;
+        margin: 4px;
+        line-height: 75px;
+
+    }
+
+    
+
+    img {
+        width: 100px;
+        height: 300px;
+        margin: 4px;
+        object-fit: cover;
+        filter: grayscale(100%);
+    }
+
+    img:hover {
+        filter: none;
+        transform: scaleY(1.2);
+    }
+
+    @media only screen and (max-width:768px){
+        .flex-container>div {
+            width: 45%;
+            /* height: 300px; */
+        }
+        img{
+            width: 100%;
+        }
+    }
